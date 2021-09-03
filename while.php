@@ -1,9 +1,6 @@
 <?php
-for ($i = 1; $i <= 50; $i++) {
-	echo $i;
-	if ($i % 3 == 0 || preg_match('/3/', $i)) {
-		echo '!';
-	}
-	echo '<br>';
+$j = 1;
+while ($j <= 50) {
+		echo $j++ . '<br>';
 }
 ?>
